@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Step 1: Meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code</title>
+    
+    <!-- Step 2: Linking CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Step 3: Main container for input and QR code -->
+    <div class="min">
+    <div class="container">
+        <!-- Step 4: Paragraph for instruction -->
+        <p>Enter your text or URL</p>
+        
+        <!-- Step 5: Input field for user input -->
+        <input type="text" placeholder="Text or URL" id="qrText">
+        
+        <!-- Step 6: Div for displaying QR code image -->
+        <div id="imgBox">
+            <img src="" id="qrImage">
+        </div>
+        
+        <!-- Step 7: Button to generate QR code -->
+        <button onclick="generateQR()">Generate QR Code</button>
+    </div>
+</div>
+    <!-- Step 8: Linking JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
+
+
