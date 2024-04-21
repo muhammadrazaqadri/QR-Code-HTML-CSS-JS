@@ -1,1 +1,1 @@
-# QR-Code-HTML-CSS-JS
+# QR-Code
